@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.2.0",
-	"SemVersion": "1.2.0",
+	"Version": 2,
+	"VersionName": "2.1.0",
+	"SemVersion": "2.1.0",
 	"FriendlyName": "PneumaticFrackingMachine",
 	"Description": "",
-	"Category": "Other",
+	"Category": "Modding",
 	"CreatedBy": "Kyrium/Deantendo",
 	"CreatedByURL": "",
 	"DocsURL": "",
@@ -18,13 +18,23 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.4.1",
-			"Enabled": true
+			"SemVersion": "^3.6.1",
+			"Enabled": true,
+			"BasePlugin": false
+		},
+		{
+			"Name": "KBFL",
+			"Enabled": true,
+			"SemVersion": "^2.2.0",
+			"BasePlugin": false
 		},
 		{
 			"Name": "KPrivateCodeLib",
-			"SemVersion": "^1.10.1",
-			"Enabled": true
+			"SemVersion": "^2.2.0",
+			"bIsOptional": false,
+			"bIsBasePlugin": false,
+			"Enabled": true,
+			"BasePlugin": false
 		}
 	],
 	"LocalizationTargets": [
@@ -32,5 +42,7 @@
 			"Name": "PneumaticFrackingMachine",
 			"LoadingPolicy": "Always"
 		}
-	]
+	],
+	"RemoteVersionRange": "",
+	"AcceptsAnyRemoteVersion": false
 }
