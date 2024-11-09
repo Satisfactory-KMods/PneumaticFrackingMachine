@@ -1,8 +1,8 @@
 {
 	"FileVersion": 3,
-	"Version": 2,
-	"VersionName": "2.1.1",
-	"SemVersion": "2.1.1",
+	"Version": 3,
+	"VersionName": "3.0.0",
+	"SemVersion": "3.0.0",
 	"FriendlyName": "PneumaticFrackingMachine",
 	"Description": "",
 	"Category": "Modding",
@@ -18,23 +18,15 @@
 	"Plugins": [
 		{
 			"Name": "SML",
-			"SemVersion": "^3.7.0",
-			"Enabled": true,
-			"BasePlugin": false
-		},
-		{
-			"Name": "KBFL",
-			"Enabled": true,
-			"SemVersion": "^2.2.0",
-			"BasePlugin": false
+			"SemVersion": "^3.8.0",
+			"Enabled": true
 		},
 		{
 			"Name": "KPrivateCodeLib",
-			"SemVersion": "^2.2.0",
+			"SemVersion": "^3.0.0",
 			"bIsOptional": false,
 			"bIsBasePlugin": false,
-			"Enabled": true,
-			"BasePlugin": false
+			"Enabled": true
 		}
 	],
 	"LocalizationTargets": [
@@ -43,6 +35,6 @@
 			"LoadingPolicy": "Always"
 		}
 	],
-	"RemoteVersionRange": "",
-	"AcceptsAnyRemoteVersion": false
+	"AcceptsAnyRemoteVersion": false,
+	"GameVersion": ">=365306"
 }
